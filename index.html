@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Counter dinamico in JavaScript con interfaccia minimale e aggiornamento in tempo reale.">
+    <meta property="og:title" content="Counter dinamico JS">
+    <meta property="og:description" content="Counter dinamico in JavaScript con interfaccia minimale e aggiornamento in tempo reale.">
+    <title>Counter dinamico JS</title>
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="assets/img/og-image.png">
+    <meta property="og:locale" content="it_IT">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Counter dinamico JS">
+    <meta name="twitter:description" content="Counter dinamico in JavaScript con interfaccia minimale e aggiornamento in tempo reale.">
+    <meta name="twitter:image" content="assets/img/og-image.png">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <script src="assets/js/script.js" defer></script>
+</head>
+<body>
+    <main class="counter-app" data-counter-app>
+        <h1>Counter dinamico</h1>
+        <p>Premi + o − per modificare il valore.</p>
+        <output class="counter-value" aria-live="polite" data-counter-value>0</output>
+        <div class="counter-controls">
+            <button class="counter-btn counter-btn--secondary" type="button" aria-label="Diminuisci il valore" data-counter-decrement>&minus;</button>
+            <button class="counter-btn" type="button" aria-label="Aumenta il valore" data-counter-increment>+</button>
+        </div>
+        <button class="reset-btn" type="button" data-counter-reset>Azzera</button>
+    </main>
+    <noscript>
+        <p class="noscript-message">Attiva JavaScript per utilizzare il contatore interattivo.</p>
+    </noscript>
+</body>
+</html>
