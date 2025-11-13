@@ -27,7 +27,8 @@ Applicazione web in JavaScript puro che offre un contatore interattivo con inter
 │   ├── js/
 │   │   └── script.js     # Logica dell’app, gestione eventi e storage
 │   └── img/
-│       └── og-image.png  # Immagine per anteprima social (sostituibile)
+│       ├── og-image.png  # Immagine per anteprima social (sostituibile)
+│       └── favicon.svg   # Favicon usata dalle tab/browser
 └── README.md
 ```
 
